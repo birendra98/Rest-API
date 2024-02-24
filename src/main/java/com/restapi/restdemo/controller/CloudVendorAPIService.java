@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/cloudvendor")
 public class CloudVendorAPIService {
 
+//    Using Simple Object at run time level
+
     CloudVendor cloudVendor;
 
     @GetMapping("{vendorId}")
